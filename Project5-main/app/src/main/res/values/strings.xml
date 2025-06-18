@@ -1,0 +1,76 @@
+<resources>
+    <!-- App Title -->
+    <string name="app_name">RU Pizzeria</string>
+    <string name="title_ru_pizzeria_order">RU Pizzeria Order</string>
+
+    <!-- Dropdown Hints -->
+    <string name="pizza_style_hint">Make a Selection</string>
+    <string name="pizza_size_hint">Select Pizza Size</string>
+    <string name="pizza_type_hint">Select Pizza Type</string>
+
+    <!-- Pizza Types -->
+    <string name="deluxe">Deluxe</string>
+    <string name="bbq_chicken">BBQ Chicken</string>
+    <string name="meatzza">Meatzza</string>
+    <string name="build_your_own">Build Your Own</string>
+
+    <!-- Pizza Sizes -->
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+
+    <!-- Labels -->
+    <string name="available_toppings">Available Toppings</string>
+    <string name="selected_toppings">Selected Toppings</string>
+    <string name="pizza_total_label">Pizza Total: $%.2f</string>
+    <string name="pizza_image_desc">Image of the selected pizza</string>
+    <string name="pizza_price_label">Price: $%.2f</string>
+    <string name="order_number_label">Order #%d</string>
+
+    <string name="order_details_label">Order Details</string>
+
+    <!-- Buttons -->
+    <string name="add_to_order_button">Add to Order</string>
+    <string name="clear_selection_button">Clear Selection</string>
+    <string name="view_order_cart_button">View Order Cart</string>
+
+    <string name="clear_cart_button">Clear Cart</string>
+    <string name="place_order_button">Place Order</string>
+    <string name="add_more_pizza_button">Add More Pizza</string>
+    <string name="past_orders_button">Past Orders</string>
+
+    <string name="order_history_title">Order History</string>
+    <string name="back_to_main_menu">Main Menu</string>
+    <string name="clear_history_button">Clear History</string>
+
+
+    <!-- Status Messages -->
+    <string name="status_select_pizza_style">Please select a pizza style before selecting type.</string>
+    <string name="status_select_pizza_type">Please select a pizza type before selecting size.</string>
+    <string name="status_select_pizza_size">Please select a pizza size before adding to the order.</string>
+    <string name="status_pizza_added">Pizza added to order!</string>
+    <string name="status_invalid_pizza_style">Invalid pizza style selected.</string>
+    <string name="status_topping_selection_not_allowed">Topping selection is only allowed for Build Your Own pizzas.</string>
+    <string name="status_topping_deselection_not_allowed">Topping deselection is only allowed for Build Your Own pizzas.</string>
+    <string name="status_topping_limit_reached">Maximum of 7 toppings allowed for Build Your Own pizzas.</string>
+    <string name="toast_clear_selection">All fields have been cleared</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_select_pizza_style">Please select a pizza style before selecting size.</string>
+    <string name="toast_select_pizza_type">Please select a pizza type before selecting size.</string>
+    <string name="toast_select_valid_type">Please select a valid pizza type.</string>
+    <string name="toast_invalid_selection">Invalid selection. Please choose valid options.</string>
+
+    <!-- Error Handling -->
+    <string name="error_image_not_found">Image not found for the selected style and type.</string>
+    <string name="error_invalid_selection">Invalid selection. Please choose valid options.</string>
+    <string name="subtotal_label">Subtotal: $%.2f</string>
+    <string name="tax_label">Tax: $%.2f</string>
+    <string name="total_cost_label">Total Cost: $%.2f</string>
+    <string name="confirm_clear_history_title">Confirm Clear History</string>
+    <string name="confirm_clear_history_message">Are you sure you want to clear all order history? This action cannot be undone.</string>
+    <string name="order_cleared_message">Order history cleared.</string>
+    <string name="no_orders_to_clear_message">No orders to clear.</string>
+
+
+</resources>

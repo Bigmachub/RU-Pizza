@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/pizzaNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza Name"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/pizzaStyleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Style: New York"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/pizzaToppingsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toppings: Cheese, Pepperoni"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/pizzaPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: $16.99"
+        android:textStyle="bold" />
+</LinearLayout>

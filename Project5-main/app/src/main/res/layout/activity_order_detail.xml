@@ -1,0 +1,103 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/orderDetailsHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order_details_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:padding="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/subtotalLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subtotal_label"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/taxLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tax_label"
+            android:padding="4dp"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/totalCostLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_cost_label"
+            android:padding="4dp"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+
+    <!-- Clear Cart Button -->
+    <Button
+        android:id="@+id/clearCartButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_cart_button"
+        android:textSize="12sp"
+        android:padding="6dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Place Order Button -->
+    <Button
+        android:id="@+id/placeOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:text="@string/place_order_button"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:textStyle="bold" />
+
+    <!-- Buttons for Add More Pizza and Past Orders -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/addMorePizzaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/add_more_pizza_button"
+            android:textSize="12sp"
+            android:padding="6dp" />
+
+        <Button
+            android:id="@+id/pastOrdersButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/past_orders_button"
+            android:textSize="12sp"
+            android:padding="6dp" />
+    </RelativeLayout>
+</LinearLayout>
